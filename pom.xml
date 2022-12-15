@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.waltercoan</groupId>
 	<artifactId>appapidevops</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 	<name>appapidevops</name>
 	<description>Demo project for Spring Boot</description>

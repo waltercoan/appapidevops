@@ -32,3 +32,11 @@ jobs:
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
+    - name: Login no Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: 'Run Azure webapp deploy action'
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: waltercoanapi
