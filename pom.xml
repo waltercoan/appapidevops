@@ -10,9 +10,16 @@
 	</parent>
 	<groupId>br.com.waltercoan</groupId>
 	<artifactId>appapidevops</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
+	<packaging>jar</packaging>
 	<name>appapidevops</name>
 	<description>Demo project for Spring Boot</description>
+	<distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/waltercoan/appapidevops</url>
+		</repository>
+    </distributionManagement>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
