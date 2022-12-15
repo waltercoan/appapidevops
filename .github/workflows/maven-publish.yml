@@ -39,4 +39,4 @@ jobs:
     - name: 'Run Azure webapp deploy action'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: waltercoanapi
+        app-name: waltercoandevops2022
